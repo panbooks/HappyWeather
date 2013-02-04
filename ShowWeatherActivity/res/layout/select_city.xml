@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="@string/select_province"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       />
+    <Spinner
+        android:id="@+id/spinner_province"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+        android:prompt="@string/spinner_province_prompt"
+       />
+     <TextView
+        android:text="@string/select_city"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       />
+    <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:drawSelectorOnTop="true"
+        android:prompt="@string/spinner_city_prompt"
+        />
+    <Button 
+        android:id="@+id/btn_select_city_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_select_city_ok" 
+        />
+        
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SpWeatherActivity!</string>
+    <string name="app_name">我的天气预报</string>
+    <string name="get_position_button">GetPosition</string>
+	<string name="get_weather_button">GetWeather</string>
+	<string name="parse_weather_button">ParseWeatherInfo</string>
+	<string name="select_province">Province</string>
+	<string name="select_city">City</string>
+	<string name="btn_select_city_ok">确定</string>
+	<string name="spinner_province_prompt">Choose a province</string>
+	<string name="spinner_city_prompt">Choose a city</string>
+
+</resources>
